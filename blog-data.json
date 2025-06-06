@@ -1,0 +1,23 @@
+[
+  {
+    "title": "First Blog Post",
+    "slug": "first-post",
+    "date": "2025-06-06",
+    "category": "Tech",
+    "preview": "This blog talks about a new tech trend that is changing the world."
+  },
+  {
+    "title": "Second Blog Post",
+    "slug": "second-post",
+    "date": "2025-06-05",
+    "category": "Science",
+    "preview": "In this article, we explore fascinating facts about black holes."
+  },
+  {
+    "title": "Third Blog Post",
+    "slug": "Third-post",
+    "date": "2025-06-05",
+    "category": "Science",
+    "preview": "lorem is the great idea for the society"
+  }
+]

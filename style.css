@@ -1,0 +1,83 @@
+/* Base styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  padding: 20px;
+  color: #333;
+  margin: 0;
+}
+
+/* Responsive Meta Tag — already in HTML head */
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .blog-post {
+    padding: 15px;
+  }
+}
+
+/* Navigation bar */
+nav {
+  background: #222;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Blog post preview (clickable card) */
+.blog-post {
+  display: block;
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h1, h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Blog content spacing */
+.blog-post p {
+  margin: 10px 0;
+}
